@@ -23,7 +23,8 @@ const UploadImg = () => {
   return (
     <form onSubmit={handleUploud}>
       <input ref={imageRef} type="file" accept="image/*" />
-      <button type="submit">SUBMIT</button>
+      <br />
+      <button type="submit">SUBMIT to use</button>
     </form>
   );
 };
